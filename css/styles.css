@@ -1,3 +1,13 @@
+/* Elements */
+
 body {
+    margin: 0;
+}
+
+div {
     background-color: blue;
+}
+
+h1 {
+    margin-top: 0;
 }
