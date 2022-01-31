@@ -1,48 +1,171 @@
 /* Elements */
 
+a {
+    color: #11999E;
+    padding: 0 2rem;
+}
+
 body {
+    font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
 }
 
 div {
-    background-color: #E0EBE8;
+    background-color: #f7f7f7;
 }
 
 h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
     margin: 0 auto;
+    font-size: 4.5em;
+    padding-top: .5em;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #11999E;
+    padding-top: 5%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    color: #EAF6F6;
+    margin: 5% auto;
+    width: 5%;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+P {
+    color: #40514E;
+    line-height: 2;
 }
 
 /* Class */
 
 .top-container {
-    background-color: #E0EBE8;
+    background-color: #EAF6F6;
+    height: 100vh;
     padding: 10% 5% 0;
     position: relative;
 }
 
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    padding-top: 3em;
+    padding-bottom: 5%;
+}
+
+.computer-skill {
+    border-radius: 100%;
+}
+
+.read-skill {
+    border-radius: 100%;
+    float: right;
+    margin-left: 5%;
+    width: 27%;
 }
 
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    background-color: #66BFBF;
+    padding-top: 4em;
+}
+
+.computer-skill {
+    float: left;
+    margin: 0 5% 2% 0;
+    width: 25%;
+}
+
+.contact-title {
+    padding: 0;
 }
 
 .cloud1 {
     position: absolute;
-    right: 25%;
-    top: 10%;
+    right: 18%;
+    top: 7%;
+    width: 15%;
 }
 
 .cloud2 {
     position: absolute;
+    left: 20%;
+    width: 15%;
+}
+
+.desc-skill {
+    line-height: 2;
 }
 
 .mountain {
-    
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 15%;
+    width: 70%;
+    height: 65%;
 }
+
+.foot-p {
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.introduce-p {
+    color: #66BFBF;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+ 
+.skill-row {
+    margin: 6.25rem auto;
+    text-align: left;
+    width: 60%;
+}
+
+.btn {
+    background: #61e2eb;
+    background-image: -webkit-linear-gradient(top, #61e2eb, #277575);
+    background-image: -moz-linear-gradient(top, #61e2eb, #277575);
+    background-image: -ms-linear-gradient(top, #61e2eb, #277575);
+    background-image: -o-linear-gradient(top, #61e2eb, #277575);
+    background-image: linear-gradient(to bottom, #61e2eb, #277575);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    border: 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 3%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #409dad;
+    background-image: -webkit-linear-gradient(top, #409dad, #3a596e);
+    background-image: -moz-linear-gradient(top, #409dad, #3a596e);
+    background-image: -ms-linear-gradient(top, #409dad, #3a596e);
+    background-image: -o-linear-gradient(top, #409dad, #3a596e);
+    background-image: linear-gradient(to bottom, #409dad, #3a596e);
+    text-decoration: none;
+  }
